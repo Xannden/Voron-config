@@ -6,7 +6,6 @@ klippy_uds_address: /home/xannden/printer_data/comms/klippy.sock
 [authorization]
 trusted_clients:
     192.168.0.0/16
-    100.0.0.0/8
     10.0.0.0/8
     127.0.0.0/8
     169.254.0.0/16
@@ -26,11 +25,6 @@ cors_domains:
 [octoprint_compat]
 
 [history]
-
-[timelapse]
-
-[spoolman]
-server:http://192.168.1.202:7912
 
 [update_manager]
 channel: dev
@@ -83,42 +77,3 @@ primary_branch: main
 is_system_service: False
 info_tags:
     desc=AFC Klipper Add On
-
-# moonraker.conf
-
-[update_manager timelapse]
-type: git_repo
-primary_branch: main
-path: ~/moonraker-timelapse
-origin: https://github.com/mainsail-crew/moonraker-timelapse.git
-managed_services: klipper moonraker
-
-# HelixScreen Update Manager
-# Added by HelixScreen installer - enables one-click updates from Mainsail/Fluidd
-# NOTE: type: web is used instead of type: zip as a workaround for
-# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
-# A systemd path unit handles service restart after Moonraker extracts the update.
-[update_manager helixscreen]
-type: web
-channel: stable
-repo: prestonbrown/helixscreen
-path: /home/xannden/helixscreen
-
-## Klippain Shake&Tune automatic update management
-[update_manager Klippain-ShakeTune]
-type: git_repo
-origin: https://github.com/Frix-x/klippain-shaketune.git
-path: ~/klippain_shaketune
-virtualenv: /home/xannden/klippy-env
-requirements: requirements.txt
-system_dependencies: system-dependencies.json
-primary_branch: main
-managed_services: klipper
-
-[include octoapp-system.cfg]
-[update_manager klipper-backup]
-type: git_repo
-path: ~/klipper-backup
-origin: https://github.com/Staubgeborener/klipper-backup.git
-managed_services: moonraker
-primary_branch: main
