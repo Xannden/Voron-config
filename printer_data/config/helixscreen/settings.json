@@ -103,11 +103,13 @@
           "assigned": true,
           "bed_temp": 100,
           "brand": "Ambrosia",
+          "catalog_id": "",
           "color_rgb": 10560310,
           "material": "ASA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 243.42662048339844,
+          "product_name": "",
+          "remaining_weight_g": 8.452503204345703,
           "spool_name": "Ambrosia ASA - Voron Red",
           "spoolman_id": 2,
           "total_weight_g": 1000.0
@@ -167,7 +169,7 @@
             "temperature_sensor nh_temp",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-08-07T01:08:36Z"
+          "timestamp": "2026-09-14T17:55:38Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
@@ -180,6 +182,9 @@
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "SET_NOZZLE_LEDS"
+        ],
         "auto_state": {
           "enabled": false,
           "mappings": {}
@@ -198,7 +203,16 @@
         "last_color": "#FFFFFF",
         "last_white": 0.0,
         "led_on_at_start": false,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "neopixel sb_leds",
