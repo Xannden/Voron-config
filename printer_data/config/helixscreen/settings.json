@@ -586,7 +586,7 @@
     }
   },
   "update": {
-    "dismissed_version": "0.99.44"
+    "dismissed_version": "1.0.1"
   },
   "wifi_expected": false,
   "wizard_completed": true
