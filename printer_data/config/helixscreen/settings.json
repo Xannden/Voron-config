@@ -99,6 +99,7 @@
       },
       "filament": {
         "auto_color_map": true,
+        "auto_cooldown": false,
         "external_spool": {
           "assigned": true,
           "bed_temp": 100,
