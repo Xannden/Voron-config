@@ -102,7 +102,7 @@
         "part": "fan"
       },
       "filament": {
-        "auto_color_map": true,
+        "auto_color_map": false,
         "auto_cooldown": false,
         "external_spool": {
           "assigned": true,
