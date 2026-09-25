@@ -10,7 +10,7 @@
     "dim_brightness": 30,
     "dim_sec": 300,
     "drm_device": "",
-    "gcode_render_mode": 0,
+    "gcode_render_mode": 2,
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 180,
