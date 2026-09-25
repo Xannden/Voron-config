@@ -555,7 +555,8 @@
     "show_printer_switcher": false
   },
   "safety": {
-    "cancel_escalation_enabled": true
+    "cancel_escalation_enabled": true,
+    "estop_require_confirmation": false
   },
   "sounds_enabled": false,
   "standard_macros": {
