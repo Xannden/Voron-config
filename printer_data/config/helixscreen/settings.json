@@ -103,22 +103,7 @@
       },
       "filament": {
         "auto_color_map": false,
-        "auto_cooldown": false,
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 100,
-          "brand": "Ambrosia",
-          "catalog_id": "",
-          "color_rgb": 10560310,
-          "material": "ASA",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "product_name": "",
-          "remaining_weight_g": 8.452503204345703,
-          "spool_name": "Ambrosia ASA - Voron Red",
-          "spoolman_id": 2,
-          "total_weight_g": 1000.0
-        }
+        "auto_cooldown": false
       },
       "filament_sensors": {
         "master_enabled": false,
