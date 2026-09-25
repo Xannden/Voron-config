@@ -41,6 +41,9 @@
   "motion": {
     "jog_mode": 2
   },
+  "notifications": {
+    "min_toast_severity": 1
+  },
   "print_start_history": {
     "entries": [
       {
