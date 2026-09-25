@@ -103,7 +103,22 @@
       },
       "filament": {
         "auto_color_map": false,
-        "auto_cooldown": false
+        "auto_cooldown": false,
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 0,
+          "brand": "Polymaker",
+          "catalog_id": "",
+          "color_rgb": 16752155,
+          "material": "TPU",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "product_name": "",
+          "remaining_weight_g": 750.0,
+          "spool_name": "PolyFlex™ TPU95 Orange",
+          "spoolman_id": 12,
+          "total_weight_g": 750.0
+        }
       },
       "filament_sensors": {
         "master_enabled": false,
