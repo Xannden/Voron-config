@@ -174,7 +174,7 @@
             "temperature_sensor nh_temp",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-10-04T17:30:51Z"
+          "timestamp": "2026-10-05T16:20:11Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
