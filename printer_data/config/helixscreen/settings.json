@@ -580,6 +580,16 @@
   "theme": {
     "preset": 0
   },
+  "thermal": {
+    "rates": {
+      "extruder": {
+        "heat_rate": 0.2639753520488739
+      },
+      "heater_bed": {
+        "heat_rate": 8.826546669006348
+      }
+    }
+  },
   "tour": {
     "completed": true,
     "last_seen_version": 1
