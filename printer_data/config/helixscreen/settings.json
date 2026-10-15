@@ -67,6 +67,37 @@
         },
         "timestamp": 1774834345,
         "total": 354
+      },
+      {
+        "phases": {
+          "8": 92
+        },
+        "timestamp": 1774802989,
+        "total": 174
+      },
+      {
+        "phases": {
+          "8": 432
+        },
+        "timestamp": 1774817070,
+        "total": 574
+      },
+      {
+        "phases": {
+          "8": 268
+        },
+        "timestamp": 1774834345,
+        "total": 354
+      },
+      {
+        "phases": {
+          "7": 7,
+          "8": 345
+        },
+        "temp_bucket": 2,
+        "timestamp": 1791821604,
+        "total": 578,
+        "window": 1
       }
     ]
   },
@@ -174,7 +205,7 @@
             "temperature_sensor nh_temp",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-10-11T17:50:12Z"
+          "timestamp": "2026-10-15T16:27:51Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
@@ -583,10 +614,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2576712965965271
+        "heat_rate": 1.4499107599258423
       },
       "heater_bed": {
-        "heat_rate": 11.652273178100586
+        "heat_rate": 7.795830249786377
       }
     }
   },
