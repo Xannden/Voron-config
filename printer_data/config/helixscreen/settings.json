@@ -1,6 +1,6 @@
 {
   "active_printer_id": "default",
-  "brightness": 80,
+  "brightness": 100,
   "completion_alert": 2,
   "config_version": 29,
   "dark_mode": true,
@@ -58,20 +58,6 @@
   },
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "CLEANING": 432
-        },
-        "timestamp": 1774817070,
-        "total": 574
-      },
-      {
-        "phases": {
-          "CLEANING": 268
-        },
-        "timestamp": 1774834345,
-        "total": 354
-      },
       {
         "phases": {
           "CLEANING": 92
@@ -171,6 +157,30 @@
         "timestamp": 1792518717,
         "total": 597,
         "window": 1
+      },
+      {
+        "phases": {
+          "PURGING": 20,
+          "QGL": 211,
+          "SOAKING": 321
+        },
+        "temp_bucket": 1,
+        "timestamp": 1792969200,
+        "total": 1318,
+        "window": 1
+      },
+      {
+        "phases": {
+          "CLEANING": 10,
+          "HOMING": 18,
+          "PURGING": 20,
+          "QGL": 297,
+          "SOAKING": 569
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793035554,
+        "total": 1606,
+        "window": 1
       }
     ]
   },
@@ -209,6 +219,7 @@
       "filament": {
         "auto_color_map": false,
         "auto_cooldown": false,
+        "auto_open_editor": true,
         "external_spool": {
           "assigned": true,
           "bed_temp": 0,
@@ -256,6 +267,7 @@
           "fans": [
             "fan",
             "heater_fan hotend_fan",
+            "controller_fan controller_fan",
             "fan_generic Nevermore"
           ],
           "filament_sensors": [
@@ -278,7 +290,7 @@
             "temperature_sensor nh_temp",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-10-25T17:33:03Z"
+          "timestamp": "2026-10-25T18:27:27Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
@@ -351,20 +363,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 8.531944444443983
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 8.531944444443983
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 8.531944444443983
           }
         },
-        "total_h": 0.0
+        "total_h": 8.531944444443983
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -534,6 +546,9 @@
                 {
                   "col": 8,
                   "colspan": 4,
+                  "config": {
+                    "material_index": 2
+                  },
                   "enabled": true,
                   "id": "preheat",
                   "row": 6,
@@ -558,6 +573,9 @@
                 {
                   "col": 4,
                   "colspan": 2,
+                  "config": {
+                    "led": "all"
+                  },
                   "enabled": true,
                   "id": "led:1",
                   "row": 4,
@@ -628,10 +646,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.6041567921638489
+        "heat_rate": 0.3592068552970886
       },
       "heater_bed": {
-        "heat_rate": 6.215997219085693
+        "heat_rate": 8.95240306854248
       }
     }
   },
