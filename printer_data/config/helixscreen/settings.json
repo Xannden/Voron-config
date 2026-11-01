@@ -219,22 +219,7 @@
       "filament": {
         "auto_color_map": false,
         "auto_cooldown": false,
-        "auto_open_editor": true,
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 0,
-          "brand": "Polymaker",
-          "catalog_id": "",
-          "color_rgb": 16752155,
-          "material": "TPU",
-          "nozzle_temp_max": 0,
-          "nozzle_temp_min": 0,
-          "product_name": "",
-          "remaining_weight_g": 646.2909545898438,
-          "spool_name": "PolyFlex™ TPU95 Orange",
-          "spoolman_id": 12,
-          "total_weight_g": 750.0
-        }
+        "auto_open_editor": true
       },
       "filament_sensors": {
         "master_enabled": false,
@@ -270,10 +255,7 @@
             "controller_fan controller_fan",
             "fan_generic Nevermore"
           ],
-          "filament_sensors": [
-            "filament_switch_sensor virtual_bypass",
-            "filament_switch_sensor quiet_mode"
-          ],
+          "filament_sensors": [],
           "heaters": [
             "heater_bed",
             "extruder"
@@ -287,10 +269,9 @@
             "tmc5160 stepper_x",
             "tmc5160 stepper_y",
             "temperature_sensor chamber_temp",
-            "temperature_sensor nh_temp",
-            "temperature_sensor Turtle_1"
+            "temperature_sensor nh_temp"
           ],
-          "timestamp": "2026-10-25T18:27:27Z"
+          "timestamp": "2026-10-30T00:07:24Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
