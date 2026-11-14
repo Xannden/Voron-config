@@ -348,7 +348,6 @@
             "fan_generic Nevermore"
           ],
           "filament_sensors": [
-            "filament_switch_sensor extruder_tool_start",
             "filament_switch_sensor extruder_tool_end",
             "filament_switch_sensor Turtle_1_expanded",
             "filament_switch_sensor Turtle_1_compressed",
@@ -380,7 +379,7 @@
             "temperature_sensor nh_temp",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-11-08T01:22:27Z"
+          "timestamp": "2026-11-14T21:38:20Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
@@ -752,7 +751,7 @@
   "ui": {},
   "update": {
     "channel": 1,
-    "dismissed_version": "1.0.1",
+    "dismissed_version": "1.1.0-rc.1",
     "moonraker_channel": "beta"
   },
   "wifi_expected": false,
