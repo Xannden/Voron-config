@@ -10,8 +10,8 @@
             "lane": 1,
             "map": "T0",
             "load": true,
-            "prep": true,
-            "tool_loaded": true,
+            "prep": false,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "ASA",
             "density": 1.08,
@@ -21,13 +21,13 @@
             "remember_spool": false,
             "spool_id": 6,
             "color": "#000000",
-            "weight": 74.07080889755416,
+            "weight": 74.05754922981362,
             "extruder_temp": 260,
             "bed_temp": 100,
             "runout_lane": null,
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tooled",
+            "filament_status": "Not Ready",
+            "filament_status_led": "#ff0000",
+            "status": "None",
             "dist_hub": 145.15,
             "td1_data": {},
             "endstops": "load,hub,tool_start,tool_end,buffer_advance,buffer_trailing,lane1_prep,lane1_load"
@@ -41,7 +41,7 @@
             "buffer_status": "Advancing",
             "lane": 2,
             "map": "T1",
-            "load": false,
+            "load": true,
             "prep": false,
             "tool_loaded": false,
             "loaded_to_hub": false,
@@ -73,7 +73,7 @@
             "buffer_status": "Advancing",
             "lane": 3,
             "map": "T2",
-            "load": false,
+            "load": true,
             "prep": false,
             "tool_loaded": false,
             "loaded_to_hub": false,
@@ -105,7 +105,7 @@
             "buffer_status": "Advancing",
             "lane": 4,
             "map": "T3",
-            "load": false,
+            "load": true,
             "prep": false,
             "tool_loaded": false,
             "loaded_to_hub": false,
@@ -130,17 +130,17 @@
         }
     },
     "system": {
-        "current_load": "lane1",
+        "current_load": null,
         "num_units": 1,
         "num_lanes": 4,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": "lane1"
+                "lane_loaded": null
             }
         },
         "bypass": {
-            "enabled": 0
+            "enabled": 1
         }
     }
 }
