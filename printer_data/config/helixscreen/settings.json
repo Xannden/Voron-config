@@ -2,7 +2,7 @@
   "active_printer_id": "default",
   "brightness": 100,
   "completion_alert": 2,
-  "config_version": 31,
+  "config_version": 35,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -13,9 +13,9 @@
     "gcode_render_mode": 2,
     "glass_probe": {
       "board": "egl/4c/100bm/800x480/32bpp",
-      "frame_ms": 3.357181,
+      "frame_ms": 3.303917,
       "passed": true,
-      "version": "1.1.0-beta.14 (6900767)"
+      "version": "1.1.0-rc.5 (028258a)"
     },
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
@@ -65,194 +65,190 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 654,
+        "heating": 1061,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 338,
-          "SOAKING": 495
+          "BED_MESH": 37,
+          "HOMING": 19,
+          "QGL": 255,
+          "SOAKING": 665
         },
         "temp_bucket": 1,
-        "timestamp": 1793717286,
-        "total": 1462,
+        "timestamp": 1794756576,
+        "total": 1664,
         "window": 1
       },
       {
-        "heating": 544,
+        "heating": 531,
         "phases": {
-          "HOMING": 31,
-          "PURGING": 20,
-          "QGL": 291,
-          "SOAKING": 372
+          "BED_MESH": 36,
+          "QGL": 137
         },
         "temp_bucket": 2,
-        "timestamp": 1793729747,
-        "total": 1154,
+        "timestamp": 1794767489,
+        "total": 518,
         "window": 1
       },
       {
-        "heating": 545,
+        "heating": 276,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 291,
-          "SOAKING": 233
+          "BED_MESH": 36,
+          "QGL": 192
         },
         "temp_bucket": 2,
-        "timestamp": 1793739717,
-        "total": 1054,
-        "window": 1
-      },
-      {
-        "heating": 492,
-        "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 242,
-          "SOAKING": 149
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793748274,
-        "total": 762,
-        "window": 1
-      },
-      {
-        "heating": 475,
-        "phases": {
-          "PURGING": 19,
-          "QGL": 116
-        },
-        "temp_bucket": 2,
-        "timestamp": 1793755893,
-        "total": 647,
+        "timestamp": 1794768589,
+        "total": 500,
         "window": 1
       },
       {
         "heating": 676,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 20,
-          "QGL": 391,
-          "SOAKING": 576
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793821558,
-        "total": 1634,
-        "window": 1
-      },
-      {
-        "heating": 672,
-        "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 339,
-          "SOAKING": 615
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794011973,
-        "total": 1672,
-        "window": 1
-      },
-      {
-        "heating": 677,
-        "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 290,
-          "SOAKING": 689
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794064329,
-        "total": 1686,
-        "window": 1
-      },
-      {
-        "heating": 484,
-        "phases": {
-          "PURGING": 19,
-          "QGL": 164
+          "BED_MESH": 38,
+          "QGL": 188
         },
         "temp_bucket": 2,
-        "timestamp": 1794073089,
-        "total": 717,
+        "timestamp": 1794770926,
+        "total": 662,
         "window": 1
       },
       {
-        "heating": 490,
+        "heating": 835,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 20,
-          "QGL": 249,
-          "SOAKING": 148
+          "BED_MESH": 89,
+          "QGL": 188
         },
         "temp_bucket": 2,
-        "timestamp": 1794082553,
-        "total": 819,
+        "timestamp": 1794779799,
+        "total": 824,
         "window": 1
       },
       {
-        "heating": 508,
+        "heating": 711,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 347,
-          "SOAKING": 254
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794092623,
-        "total": 984,
-        "window": 1
-      },
-      {
-        "heating": 403,
-        "phases": {
-          "HOMING": 18,
-          "PURGING": 20,
-          "QGL": 199,
-          "SOAKING": 165
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794101698,
-        "total": 714,
-        "window": 1
-      },
-      {
-        "heating": 669,
-        "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
+          "BED_MESH": 38,
+          "HOMING": 37,
+          "PURGING": 357,
           "QGL": 254,
-          "SOAKING": 579
+          "SOAKING": 91
         },
-        "temp_bucket": 1,
-        "timestamp": 1794158884,
-        "total": 1528,
+        "temp_bucket": 2,
+        "timestamp": 1794791335,
+        "total": 1033,
         "window": 1
       },
       {
-        "heating": 682,
+        "heating": 1029,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 244,
-          "SOAKING": 634
+          "BED_MESH": 38,
+          "HOMING": 12,
+          "PURGING": 20,
+          "QGL": 352,
+          "SOAKING": 635
         },
         "temp_bucket": 1,
-        "timestamp": 1794244122,
-        "total": 1607,
+        "timestamp": 1794848696,
+        "total": 1772,
         "window": 1
       },
       {
-        "heating": 679,
+        "heating": 54,
         "phases": {
-          "HOMING": 18,
-          "PURGING": 19,
-          "QGL": 244,
-          "SOAKING": 631
+          "BED_MESH": 89,
+          "QGL": 255,
+          "SOAKING": 92
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794878347,
+        "total": 699,
+        "window": 1
+      },
+      {
+        "heating": 1069,
+        "phases": {
+          "BED_MESH": 36,
+          "HOMING": 19,
+          "QGL": 207,
+          "SOAKING": 616
         },
         "temp_bucket": 1,
-        "timestamp": 1794333827,
-        "total": 1598,
+        "timestamp": 1794937229,
+        "total": 1585,
+        "window": 1
+      },
+      {
+        "heating": 1051,
+        "phases": {
+          "BED_MESH": 63,
+          "HOMING": 19,
+          "PURGING": 1,
+          "QGL": 257,
+          "SOAKING": 608
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794966068,
+        "total": 1637,
+        "window": 1
+      },
+      {
+        "heating": 233,
+        "phases": {
+          "BED_MESH": 112,
+          "PURGING": 1,
+          "QGL": 206,
+          "SOAKING": 477
+        },
+        "skipped": [],
+        "temp_bucket": 2,
+        "timestamp": 1795024936,
+        "total": 1093,
+        "window": 1
+      },
+      {
+        "heating": 878,
+        "phases": {
+          "BED_MESH": 78,
+          "PURGING": 1,
+          "QGL": 218,
+          "SOAKING": 672
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795399080,
+        "total": 1358,
+        "window": 1
+      },
+      {
+        "heating": 1598,
+        "phases": {
+          "BED_MESH": 81,
+          "HOMING": 19,
+          "QGL": 268,
+          "SOAKING": 641
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795452616,
+        "total": 1694,
+        "window": 1
+      },
+      {
+        "heating": 653,
+        "phases": {
+          "BED_MESH": 73,
+          "HOMING": 19,
+          "QGL": 223
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795455800,
+        "total": 705,
+        "window": 1
+      },
+      {
+        "heating": 1356,
+        "phases": {
+          "BED_MESH": 73,
+          "QGL": 195
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795463042,
+        "total": 832,
         "window": 1
       }
     ]
@@ -263,8 +259,8 @@
         "toolhead_style": 5
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"watch 5 5 Pro 6 7 Ultra charging stand (nuts).gcode\",\"job_id\":\"0000CE\",\"object_height\":0.0,\"start_time\":1794332229.4015682}",
-        "outlines": "{\"filename\":\"watch 5 5 Pro 6 7 Ultra charging stand (nuts).gcode\",\"objects\":[[[146.9,137.3],[147.0,136.6],[147.3,136.2],[147.7,136.0],[148.4,135.8],[194.9,135.8],[195.4,136.2],[202.5,155.9],[202.9,157.7],[203.1,159.9],[202.9,163.7],[202.1,167.2],[201.4,168.7],[200.3,170.8],[173.0,209.8],[171.9,211.1],[170.3,212.4],[168.5,213.3],[167.2,213.8],[165.2,214.2],[162.5,214.1],[160.5,213.6],[158.7,212.7],[157.0,211.5],[155.6,210.0],[154.2,207.7],[153.5,205.7],[146.9,146.5],[146.9,137.3]]]}"
+        "last_occupied": "{\"filename\":\"spur_gear_12_teeth_x4.gcode\",\"job_id\":\"0000E5\",\"object_height\":0.0,\"start_time\":1795462209.6281471}",
+        "outlines": "{\"filename\":\"spur_gear_12_teeth_x4.gcode\",\"objects\":[[[168.2,173.3],[170.1,170.0],[173.2,168.2],[176.7,168.2],[180.0,170.1],[181.8,173.2],[181.8,176.7],[179.9,180.0],[176.8,181.8],[173.3,181.8],[170.0,179.9],[168.3,176.9],[168.2,173.3]]]}"
       },
       "default_macros": {
         "cooldown": "SET_HEATER_TEMPERATURE HEATER=extruder TARGET=0\nSET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=0",
@@ -297,21 +293,7 @@
         "auto_color_map": false,
         "auto_cooldown": false,
         "auto_open_editor": true,
-        "external_spool": {
-          "assigned": true,
-          "bed_temp": 100,
-          "brand": "Ambrosia",
-          "catalog_id": "",
-          "color_rgb": 10560310,
-          "material": "ASA",
-          "nozzle_temp_max": 260,
-          "nozzle_temp_min": 260,
-          "product_name": "",
-          "remaining_weight_g": 464.39837646484375,
-          "spool_name": "Voron Red",
-          "spoolman_id": 9,
-          "total_weight_g": 1000.0
-        }
+        "legacy_tool_import_done": true
       },
       "filament_sensors": {
         "master_enabled": false,
@@ -348,6 +330,7 @@
             "fan_generic Nevermore"
           ],
           "filament_sensors": [
+            "filament_switch_sensor extruder_tool_start",
             "filament_switch_sensor extruder_tool_end",
             "filament_switch_sensor Turtle_1_expanded",
             "filament_switch_sensor Turtle_1_compressed",
@@ -379,7 +362,7 @@
             "temperature_sensor nh_temp",
             "temperature_sensor Turtle_1"
           ],
-          "timestamp": "2026-11-14T21:38:20Z"
+          "timestamp": "2026-11-23T01:24:46Z"
         },
         "optional": [
           "filament_switch_sensor tool_end",
@@ -452,20 +435,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 59.98999999976637
+            "used_h": 101.38666666699875
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 59.98999999976637
+            "used_h": 101.38666666699875
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 59.98999999976637
+            "used_h": 101.38666666699875
           }
         },
-        "total_h": 59.98999999976637
+        "total_h": 101.38666666699875
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
@@ -737,16 +720,16 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2985014319419861
+        "heat_rate": 0.26487576961517334
       },
       "heater_bed": {
-        "heat_rate": 16.624887466430664
+        "heat_rate": 14.787392616271973
       }
     }
   },
   "tour": {
     "completed": true,
-    "last_seen_version": 1
+    "last_seen_version": 2
   },
   "ui": {},
   "update": {
